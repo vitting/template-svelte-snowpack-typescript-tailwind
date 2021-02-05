@@ -1,9 +1,9 @@
 <script lang="typescript">
-  import "./main.css";
+  import './Styles.svelte';
 </script>
 
 <div class="App">
-  <p class="text-5xl">Welcome</p>
+  <p class="text-5xl pt-3">Welcome</p>
 </div>
 
 <style>

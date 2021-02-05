@@ -1,8 +1,7 @@
 module.exports = {
-  purge: [
-    "./src/**/*.svelte",
-    "./public/**/*.html"
-  ],
+  purge: {
+    content: ["./src/**/*.svelte", "./public/**/*.html"],
+  },
   // https://tailwindcss.com/docs/dark-mode
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -16,6 +15,6 @@ module.exports = {
   },
 
   // https://tailwindcss.com/docs/plugins
-  
+
   plugins: [require("@tailwindcss/forms")], //https://github.com/tailwindlabs/tailwindcss-forms
 };
