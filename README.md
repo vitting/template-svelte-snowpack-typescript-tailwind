@@ -1,6 +1,22 @@
-# New Project
+# Svelte template with Snowpack, Typescript and Tailwind
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+[Snowpack](https://www.snowpack.dev/)
+[Typescript](https://www.typescriptlang.org/)
+[Tailwind](https://tailwindcss.com/docs)
+
+## Get started
+
+### install degit
+
+```console
+npm install -g degit
+```
+
+### Clone repo
+
+```console
+degit vitting/template-svelte-snowpack-typescript-tailwind my-project-name
+```
 
 ## Available Scripts
 
